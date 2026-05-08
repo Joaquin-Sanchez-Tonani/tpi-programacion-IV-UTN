@@ -3,6 +3,106 @@
   "WorkspaceRootPath": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A23BFD03-8CB2-B9FB-1E88-5678B99E3470}|Src\\TrabajoP4\\Presentation.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\trabajop4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23BFD03-8CB2-B9FB-1E88-5678B99E3470}|Src\\TrabajoP4\\Presentation.csproj|solutionrelative:src\\trabajop4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|Src\\Infrastructure\\Infrastructure.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\infrastructure\\repositories\\userschild.cs\\sysadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|Src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\repositories\\userschild.cs\\sysadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23BFD03-8CB2-B9FB-1E88-5678B99E3470}|Src\\TrabajoP4\\Presentation.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\trabajop4\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23BFD03-8CB2-B9FB-1E88-5678B99E3470}|Src\\TrabajoP4\\Presentation.csproj|solutionrelative:src\\trabajop4\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23BFD03-8CB2-B9FB-1E88-5678B99E3470}|Src\\TrabajoP4\\Presentation.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\trabajop4\\controller\\userchild\\sysadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23BFD03-8CB2-B9FB-1E88-5678B99E3470}|Src\\TrabajoP4\\Presentation.csproj|solutionrelative:src\\trabajop4\\controller\\userchild\\sysadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|Src\\Domain\\Domain.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\domain\\interface\\usersinterface\\isysadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|Src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\interface\\usersinterface\\isysadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|Src\\Domain\\Domain.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\domain\\interface\\usersinterface\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|Src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\interface\\usersinterface\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\application\\services\\userschild\\sysadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\userschild\\sysadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\application\\services\\userschild\\isysadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\userschild\\isysadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|Src\\Infrastructure\\Infrastructure.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\infrastructure\\repositories\\userschild.cs\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|Src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\repositories\\userschild.cs\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|Src\\Infrastructure\\Infrastructure.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|Src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|Src\\Infrastructure\\Infrastructure.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\infrastructure\\repositories\\userschild.cs\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|Src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\repositories\\userschild.cs\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23BFD03-8CB2-B9FB-1E88-5678B99E3470}|Src\\TrabajoP4\\Presentation.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\trabajop4\\controller\\userchild\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23BFD03-8CB2-B9FB-1E88-5678B99E3470}|Src\\TrabajoP4\\Presentation.csproj|solutionrelative:src\\trabajop4\\controller\\userchild\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A23BFD03-8CB2-B9FB-1E88-5678B99E3470}|Src\\TrabajoP4\\Presentation.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\trabajop4\\controller\\userchild\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A23BFD03-8CB2-B9FB-1E88-5678B99E3470}|Src\\TrabajoP4\\Presentation.csproj|solutionrelative:src\\trabajop4\\controller\\userchild\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|Src\\Infrastructure\\Infrastructure.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|Src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|Src\\Infrastructure\\Infrastructure.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\infrastructure\\service\\passwordhasherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D745DFE-AF9A-E111-755D-FD3FFF280728}|Src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\service\\passwordhasherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\application\\services\\userschild\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\userschild\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\application\\services\\userschild\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\userschild\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\application\\services\\userschild\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\userschild\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\application\\services\\userschild\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\userschild\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\application\\tools\\ipasswordhasherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|solutionrelative:src\\application\\tools\\ipasswordhasherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\application\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDAB160-5258-45DA-1CDF-4BFCF367E785}|Src\\Application\\Application.csproj|solutionrelative:src\\application\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|Src\\Domain\\Domain.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\domain\\entity\\userschild\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|Src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entity\\userschild\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|Src\\Domain\\Domain.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\domain\\entity\\userschild\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|Src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entity\\userschild\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|Src\\Domain\\Domain.csproj|c:\\users\\augusto\\desktop\\tup6\\tp4\\tpi-programacion-iv-utn\\src\\domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87EDA1D2-4B5B-E524-38CE-D0BFCA5F4D6B}|Src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\TrabajoP4\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrabajoP4\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -88,42 +188,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\TrabajoP4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TrabajoP4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\UsersChild\\Client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entity\\UsersChild\\Client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\UsersChild\\Admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entity\\UsersChild\\Admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Services\\UsersChild\\IClientService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Services\\UsersChild\\IClientService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Services\\UsersChild\\ClientService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Services\\UsersChild\\ClientService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Interface\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interface\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entity\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\UsersChild\\SysAdmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entity\\UsersChild\\SysAdmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Tools\\IPasswordHasherService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Application\\Tools\\IPasswordHasherService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -132,16 +196,341 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 221,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 264,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Domain\\Interface\\UsersInterface\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\Interface\\UsersInterface\\IClientRepository.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Domain\\Interface\\UsersInterface\\IClientRepository.cs",
+              "RelativeToolTip": "Src\\Domain\\Interface\\UsersInterface\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:15:42.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Infrastructure\\Repositories\\UsersChild.cs\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\Repositories\\UsersChild.cs\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Infrastructure\\Repositories\\UsersChild.cs\\ClientRepository.cs",
+              "RelativeToolTip": "Src\\Infrastructure\\Repositories\\UsersChild.cs\\ClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:14:38.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Src\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:14:21.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SysAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Infrastructure\\Repositories\\UsersChild.cs\\SysAdminRepository.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\Repositories\\UsersChild.cs\\SysAdminRepository.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Infrastructure\\Repositories\\UsersChild.cs\\SysAdminRepository.cs",
+              "RelativeToolTip": "Src\\Infrastructure\\Repositories\\UsersChild.cs\\SysAdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:11:51.847Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISysAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Domain\\Interface\\UsersInterface\\ISysAdminRepository.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\Interface\\UsersInterface\\ISysAdminRepository.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Domain\\Interface\\UsersInterface\\ISysAdminRepository.cs",
+              "RelativeToolTip": "Src\\Domain\\Interface\\UsersInterface\\ISysAdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:10:35.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISysAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UsersChild\\ISysAdminService.cs",
+              "RelativeDocumentMoniker": "Src\\Application\\Services\\UsersChild\\ISysAdminService.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UsersChild\\ISysAdminService.cs",
+              "RelativeToolTip": "Src\\Application\\Services\\UsersChild\\ISysAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:05:34.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SysAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\TrabajoP4\\Controller\\UserChild\\SysAdminController.cs",
+              "RelativeDocumentMoniker": "Src\\TrabajoP4\\Controller\\UserChild\\SysAdminController.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\TrabajoP4\\Controller\\UserChild\\SysAdminController.cs",
+              "RelativeToolTip": "Src\\TrabajoP4\\Controller\\UserChild\\SysAdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:06:44.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\TrabajoP4\\Controller\\UserController.cs",
+              "RelativeDocumentMoniker": "Src\\TrabajoP4\\Controller\\UserController.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\TrabajoP4\\Controller\\UserController.cs",
+              "RelativeToolTip": "Src\\TrabajoP4\\Controller\\UserController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:26:01.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\TrabajoP4\\Program.cs",
+              "RelativeDocumentMoniker": "Src\\TrabajoP4\\Program.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\TrabajoP4\\Program.cs",
+              "RelativeToolTip": "Src\\TrabajoP4\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:51:50.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Infrastructure\\Repositories\\UsersChild.cs\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\Repositories\\UsersChild.cs\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Infrastructure\\Repositories\\UsersChild.cs\\AdminRepository.cs",
+              "RelativeToolTip": "Src\\Infrastructure\\Repositories\\UsersChild.cs\\AdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:11:21.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Src\\Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:06:13.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SysAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UsersChild\\SysAdminService.cs",
+              "RelativeDocumentMoniker": "Src\\Application\\Services\\UsersChild\\SysAdminService.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UsersChild\\SysAdminService.cs",
+              "RelativeToolTip": "Src\\Application\\Services\\UsersChild\\SysAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:02:00.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PasswordHasherService.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Infrastructure\\Service\\PasswordHasherService.cs",
+              "RelativeDocumentMoniker": "Src\\Infrastructure\\Service\\PasswordHasherService.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Infrastructure\\Service\\PasswordHasherService.cs",
+              "RelativeToolTip": "Src\\Infrastructure\\Service\\PasswordHasherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:58:40.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\TrabajoP4\\Controller\\UserChild\\ClientController.cs",
+              "RelativeDocumentMoniker": "Src\\TrabajoP4\\Controller\\UserChild\\ClientController.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\TrabajoP4\\Controller\\UserChild\\ClientController.cs",
+              "RelativeToolTip": "Src\\TrabajoP4\\Controller\\UserChild\\ClientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:53:46.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UsersChild\\IClientService.cs",
+              "RelativeDocumentMoniker": "Src\\Application\\Services\\UsersChild\\IClientService.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UsersChild\\IClientService.cs",
+              "RelativeToolTip": "Src\\Application\\Services\\UsersChild\\IClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:04:03.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UsersChild\\IAdminService.cs",
+              "RelativeDocumentMoniker": "Src\\Application\\Services\\UsersChild\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UsersChild\\IAdminService.cs",
+              "RelativeToolTip": "Src\\Application\\Services\\UsersChild\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:01:20.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UsersChild\\ClientService.cs",
+              "RelativeDocumentMoniker": "Src\\Application\\Services\\UsersChild\\ClientService.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UsersChild\\ClientService.cs*",
+              "RelativeToolTip": "Src\\Application\\Services\\UsersChild\\ClientService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:01:14.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\TrabajoP4\\Controller\\UserChild\\AdminController.cs",
+              "RelativeDocumentMoniker": "Src\\TrabajoP4\\Controller\\UserChild\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\TrabajoP4\\Controller\\UserChild\\AdminController.cs",
+              "RelativeToolTip": "Src\\TrabajoP4\\Controller\\UserChild\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:54:46.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UsersChild\\AdminService.cs",
+              "RelativeDocumentMoniker": "Src\\Application\\Services\\UsersChild\\AdminService.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UsersChild\\AdminService.cs",
+              "RelativeToolTip": "Src\\Application\\Services\\UsersChild\\AdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:02:03.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Src\\Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Src\\Application\\Services\\UserService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:25:07.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IPasswordHasherService.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Tools\\IPasswordHasherService.cs",
+              "RelativeDocumentMoniker": "Src\\Application\\Tools\\IPasswordHasherService.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Tools\\IPasswordHasherService.cs",
+              "RelativeToolTip": "Src\\Application\\Tools\\IPasswordHasherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:58:15.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Application.cs",
+              "RelativeDocumentMoniker": "Src\\Application\\Application.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Application\\Application.cs",
+              "RelativeToolTip": "Src\\Application\\Application.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:58:26.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Domain\\Entity\\UsersChild\\Admin.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\Entity\\UsersChild\\Admin.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Domain\\Entity\\UsersChild\\Admin.cs",
+              "RelativeToolTip": "Src\\Domain\\Entity\\UsersChild\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:56:06.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Domain\\Entity\\UsersChild\\Client.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\Entity\\UsersChild\\Client.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Domain\\Entity\\UsersChild\\Client.cs",
+              "RelativeToolTip": "Src\\Domain\\Entity\\UsersChild\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:56:04.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "Src\\Domain\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Src\\Domain\\Entity\\User.cs",
+              "RelativeToolTip": "Src\\Domain\\Entity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:55:59.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\TrabajoP4\\Program.cs",
               "RelativeDocumentMoniker": "TrabajoP4\\Program.cs",
@@ -152,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 27,
               "Title": "IAdminService.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Services\\UsersChild\\IAdminService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UsersChild\\IAdminService.cs",
@@ -164,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 28,
               "Title": "AdminRepository.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Infrastructure\\Repositories\\UsersChild.cs\\AdminRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UsersChild.cs\\AdminRepository.cs",
@@ -176,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 29,
               "Title": "AdminService.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Services\\UsersChild\\AdminService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UsersChild\\AdminService.cs",
@@ -188,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 30,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\TrabajoP4\\Controller\\UserChild\\AdminController.cs",
               "RelativeDocumentMoniker": "TrabajoP4\\Controller\\UserChild\\AdminController.cs",
@@ -200,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 31,
               "Title": "IAdminRepository.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Interface\\UsersInterface\\IAdminRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interface\\UsersInterface\\IAdminRepository.cs",
@@ -212,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 32,
               "Title": "IClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Interface\\UsersInterface\\IClientRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interface\\UsersInterface\\IClientRepository.cs",
@@ -224,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 33,
               "Title": "ClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Infrastructure\\Repositories\\UsersChild.cs\\ClientRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UsersChild.cs\\ClientRepository.cs",
@@ -236,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 34,
               "Title": "ClientController.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\TrabajoP4\\Controller\\UserChild\\ClientController.cs",
               "RelativeDocumentMoniker": "TrabajoP4\\Controller\\UserChild\\ClientController.cs",
@@ -248,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 35,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\TrabajoP4\\Controller\\UserController.cs",
               "RelativeDocumentMoniker": "TrabajoP4\\Controller\\UserController.cs",
@@ -260,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 36,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Infrastructure\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ApplicationDbContext.cs",
@@ -272,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 37,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\IUserService.cs",
@@ -284,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 38,
               "Title": "IClassRepository.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Interface\\IClassRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interface\\IClassRepository.cs",
@@ -296,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 39,
               "Title": "PasswordHasherService.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Infrastructure\\Service\\PasswordHasherService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Service\\PasswordHasherService.cs",
@@ -308,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 40,
               "Title": "Class.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\Class.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Class.cs",
@@ -320,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 41,
               "Title": "Inscription.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\Inscription.cs",
               "RelativeDocumentMoniker": "Domain\\Entity\\Inscription.cs",
@@ -332,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 42,
               "Title": "Domain.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Domain.cs",
               "RelativeDocumentMoniker": "Domain\\Domain.cs",
@@ -344,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 26,
               "Title": "20260427013012_Inicial.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tp4\\tpi-programacion-IV-UTN\\Infrastructure\\Migrations\\20260427013012_Inicial.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Tp4\\tpi-programacion-IV-UTN\\Infrastructure\\Migrations\\20260427013012_Inicial.cs",
@@ -355,7 +744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 43,
               "Title": "Application.cs",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Application.cs",
               "RelativeDocumentMoniker": "Application\\Application.cs",
@@ -367,7 +756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 44,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\TrabajoP4\\appsettings.Development.json",
               "RelativeDocumentMoniker": "TrabajoP4\\appsettings.Development.json",
@@ -379,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 45,
               "Title": "Presentation.http",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\TrabajoP4\\Presentation.http",
               "RelativeDocumentMoniker": "TrabajoP4\\Presentation.http",
@@ -391,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 46,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\TrabajoP4\\appsettings.json",
               "RelativeDocumentMoniker": "TrabajoP4\\appsettings.json",
@@ -400,119 +789,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-04-26T22:47:47.203Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 179,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\UsersChild\\Client.cs",
-              "RelativeDocumentMoniker": "Domain\\Entity\\UsersChild\\Client.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\UsersChild\\Client.cs",
-              "RelativeToolTip": "Domain\\Entity\\UsersChild\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T14:46:10.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\UsersChild\\Admin.cs",
-              "RelativeDocumentMoniker": "Domain\\Entity\\UsersChild\\Admin.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\UsersChild\\Admin.cs",
-              "RelativeToolTip": "Domain\\Entity\\UsersChild\\Admin.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T22:11:10.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IClientService.cs",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Services\\UsersChild\\IClientService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\UsersChild\\IClientService.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Services\\UsersChild\\IClientService.cs",
-              "RelativeToolTip": "Application\\Services\\UsersChild\\IClientService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T21:06:46.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ClientService.cs",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Services\\UsersChild\\ClientService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\UsersChild\\ClientService.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Services\\UsersChild\\ClientService.cs",
-              "RelativeToolTip": "Application\\Services\\UsersChild\\ClientService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T21:06:06.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Interface\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interface\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Interface\\IUserRepository.cs",
-              "RelativeToolTip": "Domain\\Interface\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T20:44:35.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\Entity\\User.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\User.cs",
-              "RelativeToolTip": "Domain\\Entity\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T14:46:16.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "SysAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\UsersChild\\SysAdmin.cs",
-              "RelativeDocumentMoniker": "Domain\\Entity\\UsersChild\\SysAdmin.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Domain\\Entity\\UsersChild\\SysAdmin.cs",
-              "RelativeToolTip": "Domain\\Entity\\UsersChild\\SysAdmin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T20:59:01.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Services\\UserService.cs",
-              "RelativeToolTip": "Application\\Services\\UserService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T15:27:42.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IPasswordHasherService.cs",
-              "DocumentMoniker": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Tools\\IPasswordHasherService.cs",
-              "RelativeDocumentMoniker": "Application\\Tools\\IPasswordHasherService.cs",
-              "ToolTip": "C:\\Users\\Augusto\\Desktop\\Tup6\\Tp4\\tpi-programacion-IV-UTN\\Application\\Tools\\IPasswordHasherService.cs",
-              "RelativeToolTip": "Application\\Tools\\IPasswordHasherService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T22:59:49.563Z"
             }
           ]
         }
