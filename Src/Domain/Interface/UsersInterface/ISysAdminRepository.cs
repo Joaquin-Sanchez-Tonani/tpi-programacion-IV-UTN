@@ -6,8 +6,8 @@ using System.Text;
 
 namespace Domain.Interface.UsersInterface
 {
-    public interface ISysAdminRepository
+    public interface ISysAdminRepository : IUserRepository
     {
-        List<SysAdmin> GetAll();  
+
     }
 }

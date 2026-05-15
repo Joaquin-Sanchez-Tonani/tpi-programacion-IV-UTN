@@ -6,12 +6,15 @@ using System.Text;
 
 namespace Application.Services.UsersChild
 {
-    public class ClientService : UserService, IClientService
+    public class SysAdminService : UserService, ISysAdminService
     {
-        public ClientService(IUserRepository repo, IPasswordHasherService hasher)
-            : base(repo, hasher) 
+        public SysAdminService(IUserRepository repo, IPasswordHasherService hasher)
+            : base(repo, hasher)
         {
         }
     }
 }
- 
+
+
+
+

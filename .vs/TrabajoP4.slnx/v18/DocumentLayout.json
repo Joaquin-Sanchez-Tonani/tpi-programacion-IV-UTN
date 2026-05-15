@@ -54,8 +54,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 262,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -64,7 +68,7 @@
               "RelativeDocumentMoniker": "Src\\Infrastructure\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\SONY\\source\\repos\\tpi\\Src\\Infrastructure\\ApplicationDbContext.cs",
               "RelativeToolTip": "Src\\Infrastructure\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T00:16:38.009Z",
               "EditorCaption": ""
@@ -79,8 +83,7 @@
               "RelativeToolTip": "Src\\Infrastructure\\Repositories\\ClassRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T00:16:01.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T00:16:01.264Z"
             },
             {
               "$type": "Document",
@@ -92,8 +95,7 @@
               "RelativeToolTip": "Src\\Application\\Services\\ClassService.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAkwCkAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T00:08:14.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T00:08:14.503Z"
             },
             {
               "$type": "Document",
@@ -105,8 +107,7 @@
               "RelativeToolTip": "Src\\Application\\Services\\UserService.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAkwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T00:04:40.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T00:04:40.67Z"
             },
             {
               "$type": "Document",
@@ -118,8 +119,7 @@
               "RelativeToolTip": "Src\\Application\\Services\\IClassService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T00:04:28.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T00:04:28.386Z"
             },
             {
               "$type": "Document",
@@ -131,8 +131,7 @@
               "RelativeToolTip": "Src\\Domain\\Entity\\Class.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T23:17:58.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T23:17:58.804Z"
             },
             {
               "$type": "Document",
@@ -144,8 +143,7 @@
               "RelativeToolTip": "Src\\Domain\\Interface\\IScheduleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T22:42:57.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T22:42:57.449Z"
             },
             {
               "$type": "Document",
@@ -157,8 +155,7 @@
               "RelativeToolTip": "Src\\Domain\\Interface\\IClassRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T22:41:46.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T22:41:46.867Z"
             },
             {
               "$type": "Document",
@@ -170,8 +167,7 @@
               "RelativeToolTip": "Src\\Domain\\Interface\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T22:16:57.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T22:16:57.686Z"
             },
             {
               "$type": "Document",
@@ -183,12 +179,7 @@
               "RelativeToolTip": "Src\\Application\\Services\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T22:15:19.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2026-05-08T22:15:19.372Z"
             },
             {
               "$type": "Document",
@@ -200,8 +191,7 @@
               "RelativeToolTip": "Src\\Domain\\Entity\\UsersChild\\Admin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T22:13:33.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T22:13:33.389Z"
             }
           ]
         }
