@@ -1,10 +1,7 @@
+using Application.Interfaces;
 using Application.Services;
-using Application.Services.UsersChild;
-using Application.Tools;
 using Domain.Interface;
-using Domain.Interface.UsersInterface;
-using Infrastructure.Repositories.UsersChild;
-using Infrastructure.Repositories.UsersChild.cs;
+using Infrastructure.Repositories;
 using Infrastructure.Service;
 using Microsoft.EntityFrameworkCore;
 using Trabajop4.Infrastructure;

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using Domain.Entity;
-using Domain.Entity.UsersChild;
 using Microsoft.EntityFrameworkCore;
 
 namespace Trabajop4.Infrastructure
