@@ -3,6 +3,7 @@ using Application.Interfaz;
 using Application.Services;
 using Domain.Interface;
 using Infraestructure.Service;
+using Infrastructure;
 using Infrastructure.Repositories;
 using Infrastructure.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -51,6 +52,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IClientRepository, ClientRepository>();
 builder.Services.AddScoped<IAdminRepository, AdminRepository>();
 builder.Services.AddScoped<ISysAdminRepository, SysAdminRepository>();
+builder.Services.AddScoped<IClassRepository, ClassRepository>();
 
 
 // 3. Servicios de Aplicación (Lógica de Negocio)
@@ -58,7 +60,7 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IClientService, ClientService>();
 builder.Services.AddScoped<IAdminService, AdminService>();
 builder.Services.AddScoped<ISysAdminService, SysAdminService>();
-
+builder.Services.AddScoped<IClassService, ClassService>();
 //Servicios de utilidad
 builder.Services.AddScoped<IAuthService, AuthService>();
 
