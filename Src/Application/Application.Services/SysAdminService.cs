@@ -2,17 +2,22 @@
 using Application.Interfaces;
 using Domain.Entity;
 using Domain.Interface;
+using Microsoft.Extensions.Configuration;
+
 
 namespace Application.Services
 {
     public class SysAdminService : UserService, ISysAdminService
     {
+        private readonly IConfiguration _configuration;
         public SysAdminService(
             IUserRepository repo,
             IPasswordHasherService hasher,
-            IUserContext userContext)
+            IUserContext userContext,
+            IConfiguration configuration)
             : base(repo, hasher, userContext)
         {
+            _configuration = configuration;
         }
 
         public async Task<User?> UpgradeUsersRol(UpgradeUsersRol request)
@@ -21,6 +26,10 @@ namespace Application.Services
 
             if (user == null)
                 return null;
+            
+            if(user.Email == _configuration["SeedAdmin:Email"]!){
+                return null;
+            }
 
             User newUser;
 
