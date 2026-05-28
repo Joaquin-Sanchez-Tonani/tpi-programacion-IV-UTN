@@ -1,7 +1,14 @@
-﻿using Application.Interfaces;
+﻿using Application.Dtos.Request;
+using Application.Dtos.Requests;
+using Application.Dtos.Responses;
+using Application.Interfaces;
+using Application.Services;
 using Domain.Entity;
 using Infraestructure.Service;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Presentation.Controller;
+
 
 namespace Presentation.Presentation.Controller
 {
@@ -9,9 +16,28 @@ namespace Presentation.Presentation.Controller
 
     public class SysAdminController : UsersController<SysAdmin>
     {
-        public SysAdminController(IUserService service, IAuthService authService) : base(service, authService)
+        private readonly ISysAdminService _sysAdminService;
+        public SysAdminController(IUserService service, IAuthService authService, ISysAdminService sysAdminService) : base(service, authService)
         {
-            // Aquí puedes agregar métodos que SOLO existan para Clientes
+            _sysAdminService = sysAdminService;
+
+        }
+
+        [Authorize]
+        [HttpPost("UpgradeUsersRol")]
+        public async Task<ActionResult> UpgradeUsersRol([FromBody] UpgradeUsersRol request)
+        {
+
+            var result = await _sysAdminService.UpgradeUsersRol(request);
+
+            if (result == null)
+                return NotFound();
+
+            return Ok(new
+            {
+                Message = "Rol actualizado correctamente",
+                User = result.Email
+            });
         }
     }
 }
