@@ -1,5 +1,4 @@
 using Application.Interfaces;
-using Application.Interfaz;
 using Application.Services;
 using Domain.Interface;
 using Infraestructure.Service;
@@ -120,5 +119,4 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
 app.Run();

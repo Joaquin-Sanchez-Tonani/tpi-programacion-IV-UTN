@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 
 
-namespace Application.Interfaz
+namespace Application.Interfaces
 {
     public interface IClientService : IUserService
     {

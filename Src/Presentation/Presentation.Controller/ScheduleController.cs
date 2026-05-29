@@ -1,8 +1,8 @@
-﻿using Application.Services;
-using Domain.Entity;
+﻿using Domain.Entity;
 using Microsoft.AspNetCore.Mvc;
 using Application.Dtos.Request;
 using Application.Dtos.Responses;
+using Application.Application.Interfaces;
 namespace Presentation.Controller
 {
     [ApiController]
