@@ -53,6 +53,8 @@ builder.Services.AddScoped<IClientRepository, ClientRepository>();
 builder.Services.AddScoped<IAdminRepository, AdminRepository>();
 builder.Services.AddScoped<ISysAdminRepository, SysAdminRepository>();
 builder.Services.AddScoped<IClassRepository, ClassRepository>();
+builder.Services.AddScoped<IScheduleRepository, ScheduleRepository>();
+builder.Services.AddScoped<ISysAdminService, SysAdminService>();
 
 
 // 3. Servicios de Aplicación (Lógica de Negocio)
@@ -60,13 +62,13 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IClientService, ClientService>();
 builder.Services.AddScoped<IAdminService, AdminService>();
 builder.Services.AddScoped<ISysAdminService, SysAdminService>();
-
+builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IUserContext, UserContext>();
 
-
 builder.Services.AddScoped<IClassService, ClassService>();
+builder.Services.AddScoped<IScheduleService, ScheduleService>();
 //Servicios de utilidad
-builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<DatabaseSeeder>();
 builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -89,6 +91,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddScoped<IPasswordHasherService, PasswordHasherService>();
 
 
+
 // --- PIPELINE DE LA APLICACIÓN ---
 
 var app = builder.Build();
@@ -98,6 +101,18 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Sembrar la base de datos con un usuario sysadmin por defecto
+
+using (var scope = app.Services.CreateScope())
+{
+    var seeder = scope.ServiceProvider
+    .GetRequiredService<DatabaseSeeder>();
+
+
+    await seeder.SeedAsync();
+}
+
 
 app.UseHttpsRedirection();
 

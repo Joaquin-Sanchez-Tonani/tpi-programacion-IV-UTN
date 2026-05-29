@@ -8,9 +8,9 @@ using Application.Dtos.Request;
 
 public class UserService : IUserService
 {
-    private readonly IUserRepository _repo;
-    private readonly IPasswordHasherService _hasher;
-    private readonly IUserContext _userContext;
+    protected readonly IUserRepository _repo;
+    protected readonly IPasswordHasherService _hasher;
+    protected readonly IUserContext _userContext;
 
     public UserService(IUserRepository repo, IPasswordHasherService hasher, IUserContext userContext)
     {

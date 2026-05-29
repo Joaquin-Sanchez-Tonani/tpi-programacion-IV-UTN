@@ -4,13 +4,18 @@ namespace Domain.Entity
 {
     public class Schedule
     {
+
+        //Cambiar a Guid
         public int Id { get; set; }
 
+
+        //Modificar a lista
         public Day DayOfWeek { get; set; }
 
         public TimeOnly StartTime { get; set; }
 
         public TimeOnly EndTime { get; set; }
+
         [ForeignKey("Class")]
         public Guid Id_Class { get; set; }
 
