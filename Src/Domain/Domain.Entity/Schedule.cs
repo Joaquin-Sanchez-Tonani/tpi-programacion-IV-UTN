@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace Domain.Entity
 {
@@ -19,7 +20,7 @@ namespace Domain.Entity
         public Guid Id_Class { get; set; }
 
         public bool IsActive { get; set; } = true;
-
+        [JsonIgnore]
         public Class? Class { get; set; }
 
         public Schedule() { }

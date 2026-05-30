@@ -8,7 +8,7 @@ Cliente
 	-Validar si el usuario pago el mes
 
 Admin
-	-Crear Clases con Horarios					(Augusto)
+
 	-Recibir recibo de pago de usuarios
 	-Modificar planes (Agregar ofertas)
 

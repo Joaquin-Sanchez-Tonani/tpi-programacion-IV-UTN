@@ -18,8 +18,8 @@ namespace Presentation.Presentation.Controller
         public AdminController(IUserService service, IAuthService authService, IAdminService adminService) : base(service, authService)
         {
             _AdminService = adminService;
-        }          
-        
+        }
+
         //Borrar horarios de clases
 
         //Modificar horarios de clases
@@ -33,7 +33,7 @@ namespace Presentation.Presentation.Controller
         {
 
             var result = await _AdminService.CreteClass(request.ClassRequest, request.ScheduleRequests);
-            if(result == null)
+            if (result == null)
             {
                 return BadRequest("Datos incorrectos");
             }
@@ -44,6 +44,33 @@ namespace Presentation.Presentation.Controller
                 Class = result?.Name
             });
 
+        }
+
+        [Authorize]
+        [HttpGet("getClass")]
+        public async Task<ActionResult> GetClass()
+        {
+            var result = await _AdminService.GetClass();
+            if (result == null)
+            {
+                return NotFound("Clase no encontrada");
+            }
+
+            return Ok(result);
+        }
+
+        [Authorize]
+        [HttpPut("updateClass/{id}")]
+        public async Task<ActionResult> UpdateClass(Guid id, [FromBody] CreateClassWithSchedulesRequest request)
+        {
+
+            var result = await _AdminService.UpdateClass(id, request.ClassRequest, request.ScheduleRequests);
+            if (result == null)
+            {
+                return NotFound("Clase no encontrada");
+            }
+
+            return Ok(result);
         }
 
     }
