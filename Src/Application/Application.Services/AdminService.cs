@@ -3,9 +3,6 @@ using Application.Dtos.Request.Admin;
 using Application.Interfaces;
 using Domain.Entity;
 using Domain.Interface;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Application.Services
 {
