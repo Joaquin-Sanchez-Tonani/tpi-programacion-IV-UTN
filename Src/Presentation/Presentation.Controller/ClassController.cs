@@ -12,10 +12,12 @@ namespace Presentation.Presentation.Controller
     public class ClassController : ControllerBase
     {
         private readonly IClassService _service;
+        private readonly IEmailService _emailService;
 
-        public ClassController(IClassService service)
+        public ClassController(IClassService service, IEmailService emailService)
         {
             _service = service;
+            _emailService = emailService;
         }
 
         [HttpGet]
@@ -74,7 +76,7 @@ namespace Presentation.Presentation.Controller
 
             return Ok(response);
         }
-        
+
         [HttpPatch("{id}")]
         public async Task<IActionResult> Patch(Guid id, [FromBody] UpdateClassRequest dto)
         {
@@ -104,6 +106,17 @@ namespace Presentation.Presentation.Controller
                 return NotFound();
 
             return NoContent();
+        } 
+
+        [HttpGet("test-email")]
+        public async Task<IActionResult> TestEmail()
+        {
+            await _emailService.SendEmailAsync(
+                "maximohahn0@gmail.com",
+                "Prueba",
+                "<h1>Hola desde Gym API</h1>");
+
+            return Ok("Mail enviado");
         }
     }
 }
