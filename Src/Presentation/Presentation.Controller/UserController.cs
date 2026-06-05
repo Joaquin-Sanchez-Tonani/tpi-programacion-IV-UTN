@@ -1,4 +1,5 @@
-﻿using Application.Dtos.Request;
+﻿using Application.Application.Dtos.Application.Dtos.Request;
+using Application.Dtos.Request;
 using Application.Dtos.Requests;
 using Application.Dtos.Responses;
 using Application.Interfaces;
@@ -59,6 +60,20 @@ namespace Presentation.Controller
                 return BadRequest("Token inválido.");
 
             return Ok("Email verificado correctamente.");
+        }
+
+        [AllowAnonymous]
+        [HttpPost("resend-verification")]
+        public async Task<IActionResult> ResendVerification(
+        [FromBody] ResendVerificationRequest request)
+        {
+            var result = await _authService
+                .ResendVerificationEmail(request.Email);
+
+            if (!result)
+                return BadRequest("Usuario no encontrado o ya verificado.");
+
+            return Ok("Correo de verificacion enviado.");
         }
 
         [AllowAnonymous]

@@ -1,5 +1,4 @@
-﻿
-using Application.Dtos.Requests;
+﻿using Application.Dtos.Requests;
 using Application.Dtos.Responses;
 using Application.Interfaces;
 using Domain.Entity;
@@ -47,6 +46,8 @@ namespace Infraestructure.Service
 
             var hashedPassword = _hasher.Hash(request.Password);
             var verificationToken = Guid.NewGuid().ToString();
+            var verificationExpiration = DateTime.UtcNow.AddHours(24);
+
 
             var newUser = new Client
             {
@@ -56,7 +57,8 @@ namespace Infraestructure.Service
                 Password = hashedPassword,
                 Dni = request.Dni,
                 EmailVerified = false,
-                VerificationToken = verificationToken
+                VerificationToken = verificationToken,
+                VerificationTokenExpiration = verificationExpiration
             };
             _context.Users.Add(newUser);
             await _context.SaveChangesAsync();
@@ -109,12 +111,17 @@ namespace Infraestructure.Service
 
         public async Task<bool> VerifyEmail(string token)
         {
+            
             var user = await _context.Users
                 .FirstOrDefaultAsync(u => u.VerificationToken == token);
-
+            
             if (user == null)
                 return false;
-
+            if (user.VerificationTokenExpiration == null ||
+                user.VerificationTokenExpiration < DateTime.UtcNow)
+            {
+                return false;
+            }
             user.EmailVerified = true;
             user.VerificationToken = null;
 
@@ -123,6 +130,38 @@ namespace Infraestructure.Service
             return true;
         }
 
+        public async Task<bool> ResendVerificationEmail(string email)
+        {
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Email == email);
+
+            if (user == null)
+                return false;
+
+            if (user.EmailVerified)
+                return false;
+
+            var verificationToken = Guid.NewGuid().ToString();
+
+            user.VerificationToken = verificationToken;
+            user.VerificationTokenExpiration = DateTime.UtcNow.AddHours(24);
+
+            await _context.SaveChangesAsync();
+
+            var verificationLink =
+                $"https://localhost:7001/api/clients/verify-email?token={verificationToken}";
+
+            await _emailService.SendEmailAsync(
+                user.Email,
+                "Verifica tu cuenta",
+                $@"
+                <h2>Verificacion de cuenta</h2>
+                <p>Solicitaste un nuevo enlace de verificacion.</p>
+                <a href='{verificationLink}'>Verificar cuenta</a>"
+                );
+
+            return true;
+        }
 
         private string GenerarToken(Guid userId, string email, string rol)
         {
