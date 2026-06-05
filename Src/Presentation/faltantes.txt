@@ -18,5 +18,6 @@ Clase
 	-Valida usuarios maximos ingresados			(Nahu)
 
 Plan
+
 	-Crear Planes con cantidad de clases maximas donde anotarse (3 planes minimo)
 

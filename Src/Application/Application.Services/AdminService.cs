@@ -11,14 +11,37 @@ namespace Application.Services
     {
         private readonly IClassRepository _repo;
         private readonly IScheduleRepository _scheduleRepo;
-        public AdminService(IUserRepository repo, IPasswordHasherService hasher, IUserContext userContext, IClassRepository classRepo, IScheduleRepository scheduleRepo)
+        private readonly IPlanRepository _planRepo;
+        public AdminService(IUserRepository repo, IPasswordHasherService hasher, IUserContext userContext, IClassRepository classRepo, IScheduleRepository scheduleRepo, IPlanRepository planRepo)
             : base(repo, hasher, userContext)
         {
             _repo = classRepo;
             _scheduleRepo = scheduleRepo;
+            _planRepo = planRepo;
         }
 
-        public async Task<Class?> CreteClass(CreateClassAdminRequest request, List<CreteScheduleAdminRequest> scheduleRequests)
+
+        public async Task<Plan?> CreatePlan(CreatePlanAdminRequest request)
+        {
+            if (request == null) { return null; }
+            if(request.value < 0) { return null; }
+
+            var plan = new Plan
+            {
+                Name = request.Name,
+                Value = request.value,
+                Max_Class = request.Max_Users
+            };
+
+            await _planRepo.Add(plan);
+            await _planRepo.Save();
+
+            return plan;
+        }
+
+
+
+        public async Task<Class?> CreteClass(CreatePlanAdminRequest request, List<CreteScheduleAdminRequest> scheduleRequests)
         {
             if (request == null) { return null; }
             ;
@@ -73,9 +96,7 @@ namespace Application.Services
 
 
 
-
-
-        public async Task<IEnumerable<Class?>> UpdateClass(Guid id, CreateClassAdminRequest request, List<CreteScheduleAdminRequest> scheduleRequests)
+        public async Task<IEnumerable<Class?>> UpdateClass(Guid id, CreatePlanAdminRequest request, List<CreteScheduleAdminRequest> scheduleRequests)
         {
 
             var gymClass = await _repo.GetById(id);

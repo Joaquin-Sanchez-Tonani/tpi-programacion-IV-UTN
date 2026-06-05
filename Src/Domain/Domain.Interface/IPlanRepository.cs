@@ -8,5 +8,16 @@ namespace Domain.Interface
     public interface IPlanRepository
     {
         List<Plan> GetAll();
+
+        Task<Plan?> GetById(Guid id);
+
+        Task Add(Plan plan);
+
+        Task Delete(Plan plan);
+
+        Task Save();
+
+
     }
 }
+
