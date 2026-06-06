@@ -23,6 +23,9 @@ namespace Application.Services
         }
 
 
+
+        // -------------------------CRUD for Plan---------------------
+
         public async Task<Plan?> UpdatePlan(Guid id, CreatePlanAdminRequest request)
         {
             var plan_id = await _planRepo.GetById(id);
@@ -58,6 +61,54 @@ namespace Application.Services
             return plan;
         }
 
+        public async Task<Plan?> DeletePlan(Guid id)
+        {
+            var plan = await _planRepo.GetById(id);
+            if (plan == null) return null;
+            await _planRepo.Delete(plan);
+            await _planRepo.Save();
+            return plan;
+        }
+
+        public async Task<IEnumerable<Plan>> GetPlan()
+        {
+            return await _planRepo.GetAll();
+        }
+
+
+
+        // ---------------CRUD for Class -------------------
+
+        public async Task<IEnumerable<Class?>> UpdateClass(Guid id, CreateClassRequest request, List<CreteScheduleAdminRequest> scheduleRequests)
+        {
+
+            var gymClass = await _repo.GetById(id);
+
+            if (gymClass == null)
+                return null;
+
+            gymClass.Name = request.Name ?? gymClass.Name;
+            if (request.Max_Users != 0) gymClass.Max_Users = request.Max_Users;
+
+            if (scheduleRequests != null)
+            {
+                gymClass.Schedules = (List<Schedule>)await UpdateSchedule(id, scheduleRequests);
+
+            }
+
+            await _repo.Save();
+
+            return await _repo.GetAll(); ;
+        }
+
+        public async Task<IEnumerable<Class?>> DeleteClass(Guid id)
+        {
+            var gymClass = await _repo.GetById(id);
+            if (gymClass == null) return null;
+            await _repo.Delete(gymClass);
+            await _repo.Save();
+            return await _repo.GetAll();
+        }
 
         public async Task<Class?> CreteClass(CreateClassRequest request, List<CreteScheduleAdminRequest> scheduleRequests)
         {
@@ -91,6 +142,14 @@ namespace Application.Services
             return clase;
         }
 
+        public async Task<IEnumerable<Class>> GetClass()
+        {
+            return await _repo.GetAll();
+        }
+
+
+        // -------------------------CRUD for Schedule---------------------
+
         public async Task<Schedule?> CreteSchedule(CreteScheduleAdminRequest request)
         {
             if (request == null) { return null; }
@@ -107,36 +166,15 @@ namespace Application.Services
             return schedule;
         }
 
-        public async Task<IEnumerable<Class>> GetClass()
+        public async Task<Schedule?> DeleteSchedule(Guid id)
         {
-            return await _repo.GetAll();
+            var schedule = await _scheduleRepo.GetById(id);
+            if (schedule == null) return null;
+            await _scheduleRepo.Delete(id);
+            await _scheduleRepo.Save();
+            return schedule;
         }
 
-
-
-
-
-        public async Task<IEnumerable<Class?>> UpdateClass(Guid id, CreateClassRequest request, List<CreteScheduleAdminRequest?> scheduleRequests)
-        {
-
-            var gymClass = await _repo.GetById(id);
-
-            if (gymClass == null)
-                return null;
-
-            gymClass.Name = request.Name ?? gymClass.Name;
-            if(request.Max_Users != 0) gymClass.Max_Users = request.Max_Users;
-
-            if(scheduleRequests != null)
-            {
-                gymClass.Schedules = (List<Schedule>)await UpdateSchedule(id, scheduleRequests);
-
-            }
-
-            await _repo.Save();
-
-            return await _repo.GetAll(); ;
-        }
 
         public async Task<IEnumerable<Schedule?>> UpdateSchedule(Guid id, List<CreteScheduleAdminRequest> scheduleRequests)
         {

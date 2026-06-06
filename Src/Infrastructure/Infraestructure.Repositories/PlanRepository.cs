@@ -14,9 +14,9 @@ namespace Infrastructure.Repository
             _context = context;
         }
 
-        public List<Plan> GetAll()
+        public async Task<IEnumerable<Plan>> GetAll()
         {
-            return _context.Plans.ToList();
+            return await _context.Plans.ToListAsync();
         }
 
         public async Task<Plan?> GetById(Guid id)

@@ -9,6 +9,12 @@ namespace Application.Interfaces
 {
     public interface IAdminService : IUserService
     {
+
+        Task<Plan?> DeletePlan(Guid id);
+        Task<IEnumerable<Plan>> GetPlan();
+
+        Task<Schedule?> DeleteSchedule(Guid id);
+
         Task<Plan?> UpdatePlan(Guid id, CreatePlanAdminRequest request);
 
         Task<Plan?> CreatePlan(CreatePlanAdminRequest request);
@@ -16,6 +22,9 @@ namespace Application.Interfaces
         Task<Class?> CreteClass(CreateClassRequest request, List<CreteScheduleAdminRequest> scheduleRequests);
 
         Task<Schedule?> CreteSchedule(CreteScheduleAdminRequest request);
+
+        Task<IEnumerable<Class?>> DeleteClass(Guid id);
+
 
         Task<IEnumerable<Class>> GetClass();
 

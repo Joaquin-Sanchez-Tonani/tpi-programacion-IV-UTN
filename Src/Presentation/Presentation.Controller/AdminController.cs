@@ -27,6 +27,9 @@ namespace Presentation.Presentation.Controller
 
         //Crear una clase con horaris deseados
 
+
+        // -------------PLAN controller --------------------
+
         [Authorize]
         [HttpPost("UpdatePlan")]
         public async Task<ActionResult> UpdatePlan(Guid id, CreatePlanAdminRequest request)
@@ -38,7 +41,7 @@ namespace Presentation.Presentation.Controller
             }
             return Ok(new
             {
-                Message = "Clase modificada correctamente",
+                Message = "Clase creada correctamente",
                 Class = result?.Name
             });
         }
@@ -58,6 +61,46 @@ namespace Presentation.Presentation.Controller
                 Class = result?.Name
            });
         }
+
+        [Authorize]
+        [HttpPost("DeletePlan")]
+        public async Task<ActionResult> DeletePlan(Guid id)
+        {
+            var result = await _AdminService.DeletePlan(id);
+            if (result == null)
+            {
+                return NotFound("Plan no encontrado");
+            }
+            return Ok(result);
+        }
+
+        [Authorize]
+        [HttpGet("GetPlan")]
+        public async Task<ActionResult<IEnumerable<Plan>>> GetPlan()
+        {
+            var result = await _AdminService.GetPlan();
+            if (result == null)
+            {
+                return NotFound("Planes no encontrados");
+            }
+            return Ok(result);
+        }
+
+        //-----------------Schedule Controller ----------------------------
+        [Authorize]
+        [HttpPost("DeleteSchedule")]
+        public async Task<ActionResult> DeleteSchedule(Guid id)
+        {
+            var result = await _AdminService.DeleteSchedule(id);
+            if (result == null)
+            {
+                return NotFound("Horario no encontrado");
+            }
+            return Ok(result);
+        }
+
+
+        //-------------------- Class controler-----------------------------
 
 
         [Authorize]
@@ -106,6 +149,18 @@ namespace Presentation.Presentation.Controller
 
             return Ok(result);
         }
-     
+
+        [Authorize]
+        [HttpDelete("deleteClass/{id}")]
+        public async Task<ActionResult<IEnumerable<Class?>>> DeleteClass(Guid id)
+        {
+            var result = await _AdminService.DeleteClass(id);
+            if (result == null)
+            {
+                return NotFound("Clase no encontrada");
+            }
+
+            return Ok(result);
+        }
     }
 }
