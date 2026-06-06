@@ -7,7 +7,7 @@ namespace Application.Dtos.Request.Admin
 {
     public class CreateClassWithSchedulesRequest
     {
-        public CreatePlanAdminRequest ClassRequest { get; set; }
+        public CreateClassRequest ClassRequest { get; set; }
 
         public List<CreteScheduleAdminRequest> ScheduleRequests { get; set; }
     }

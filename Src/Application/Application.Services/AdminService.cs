@@ -11,37 +11,14 @@ namespace Application.Services
     {
         private readonly IClassRepository _repo;
         private readonly IScheduleRepository _scheduleRepo;
-        private readonly IPlanRepository _planRepo;
-        public AdminService(IUserRepository repo, IPasswordHasherService hasher, IUserContext userContext, IClassRepository classRepo, IScheduleRepository scheduleRepo, IPlanRepository planRepo)
+        public AdminService(IUserRepository repo, IPasswordHasherService hasher, IUserContext userContext, IClassRepository classRepo, IScheduleRepository scheduleRepo)
             : base(repo, hasher, userContext)
         {
             _repo = classRepo;
             _scheduleRepo = scheduleRepo;
-            _planRepo = planRepo;
         }
 
-
-        public async Task<Plan?> CreatePlan(CreatePlanAdminRequest request)
-        {
-            if (request == null) { return null; }
-            if(request.value < 0) { return null; }
-
-            var plan = new Plan
-            {
-                Name = request.Name,
-                Value = request.value,
-                Max_Class = request.Max_Users
-            };
-
-            await _planRepo.Add(plan);
-            await _planRepo.Save();
-
-            return plan;
-        }
-
-
-
-        public async Task<Class?> CreteClass(CreatePlanAdminRequest request, List<CreteScheduleAdminRequest> scheduleRequests)
+        public async Task<Class?> CreteClass(CreateClassRequest request, List<CreteScheduleAdminRequest> scheduleRequests)
         {
             if (request == null) { return null; }
             ;
@@ -96,7 +73,9 @@ namespace Application.Services
 
 
 
-        public async Task<IEnumerable<Class?>> UpdateClass(Guid id, CreatePlanAdminRequest request, List<CreteScheduleAdminRequest> scheduleRequests)
+
+
+        public async Task<IEnumerable<Class?>> UpdateClass(Guid id, CreateClassRequest request, List<CreteScheduleAdminRequest?> scheduleRequests)
         {
 
             var gymClass = await _repo.GetById(id);
@@ -105,9 +84,13 @@ namespace Application.Services
                 return null;
 
             gymClass.Name = request.Name ?? gymClass.Name;
-            gymClass.Max_Users = request.Max_Users;
+            if(request.Max_Users != 0) gymClass.Max_Users = request.Max_Users;
 
-            gymClass.Schedules = (List<Schedule>)await UpdateSchedule(id, scheduleRequests);
+            if(scheduleRequests != null)
+            {
+                gymClass.Schedules = (List<Schedule>)await UpdateSchedule(id, scheduleRequests);
+
+            }
 
             await _repo.Save();
 
@@ -146,5 +129,3 @@ namespace Application.Services
         }
     }
 }
-
-

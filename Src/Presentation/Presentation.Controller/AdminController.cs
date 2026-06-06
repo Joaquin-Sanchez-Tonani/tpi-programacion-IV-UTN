@@ -1,4 +1,5 @@
-﻿using Application.Dtos.Request.Admin;
+﻿using Application.Dtos.Request;
+using Application.Dtos.Request.Admin;
 using Application.Interfaces;
 using Application.Services;
 using Azure.Core;
@@ -26,21 +27,21 @@ namespace Presentation.Presentation.Controller
 
         //Crear una clase con horaris deseados
 
-        [Authorize]
-        [HttpPost("CreatePlan")]
-        public async Task<ActionResult> CreatePlan(CreatePlanAdminRequest request)
-        {
-            var result = await _AdminService.CreatePlan(request);
-            if (result == null)
-            {
-                return BadRequest("Datos incorrectos");
-            }
-            return Ok(new
-            {
-                Message = "Clase creada correctamente",
-                Class = result?.Name
-            });
-        }
+        //[Authorize]
+        //[HttpPost("CreatePlan")]
+        //public async Task<ActionResult> CreatePlan(CreatePlanAdminRequest request)
+        //{
+        //    var result = await _AdminService.CreatePlan(request);
+        //    if (result == null)
+        //    {
+        //        return BadRequest("Datos incorrectos");
+        //    }
+        //    return Ok(new
+        //    {
+        //        Message = "Clase creada correctamente",
+        //        Class = result?.Name
+        //    });
+        //}
 
 
         [Authorize]
