@@ -77,6 +77,38 @@ namespace Presentation.Controller
         }
 
         [AllowAnonymous]
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword(
+        [FromBody] ForgotPasswordRequest request)
+        {
+            var result = await _authService
+                .ForgotPassword(request.Email);
+
+            if (!result)
+                return BadRequest("No existe un usuario con ese email.");
+
+            return Ok("Se envio el correo de recuperacion.");
+        }
+
+        [AllowAnonymous]
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword(
+        [FromBody] ResetPasswordRequest request)
+        {
+            var result = await _authService
+                .ResetPassword(
+                    request.Token,
+                    request.NewPassword);
+
+            if (!result)
+                return BadRequest(
+                    "Token invalido o expirado.");
+
+            return Ok(
+                "Contraseña actualizada correctamente.");
+        }
+
+        [AllowAnonymous]
         [HttpGet]
         public virtual async Task<ActionResult<IEnumerable<T>>> Get()
         {
