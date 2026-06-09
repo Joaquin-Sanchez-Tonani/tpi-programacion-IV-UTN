@@ -197,5 +197,121 @@ namespace Infraestructure.Service
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+        private string GeneratePasswordResetToken(User user)
+        {
+            string key = _configuration["Jwt:Key"]!;
+            string issuer = _configuration["Jwt:Issuer"]!;
+            string audience = _configuration["Jwt:Audience"]!;
+
+            var securityKey =
+                new SymmetricSecurityKey(
+                    Encoding.UTF8.GetBytes(key));
+
+            var credentials =
+                new SigningCredentials(
+                    securityKey,
+                    SecurityAlgorithms.HmacSha256);
+
+            var claims = new[]
+            {
+                new Claim(
+                    ClaimTypes.NameIdentifier,
+                    user.Id.ToString()),
+
+                new Claim(
+                    "purpose",
+                    "reset-password")
+            };
+
+            var token = new JwtSecurityToken(
+                issuer,
+                audience,
+                claims,
+                expires: DateTime.UtcNow.AddMinutes(15),
+                signingCredentials: credentials);
+
+            return new JwtSecurityTokenHandler()
+                .WriteToken(token);
+        }
+        public async Task<bool> ForgotPassword(string email)
+        {
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Email == email);
+
+            if (user == null)
+                return false;
+
+            var token = GeneratePasswordResetToken(user);
+
+            var resetLink =
+                $"https://localhost:7001/reset-password?token={token}";
+
+            await _emailService.SendEmailAsync(
+                user.Email,
+                "Recuperar contraseña",
+                $@"
+                <h2>Recuperacion de contraseña</h2>
+                <p>Hace click en el siguiente enlace:</p>
+                <a href='{resetLink}'>Restablecer contraseña</a>");
+
+            return true;
+        }
+
+        public async Task<bool> ResetPassword(
+            string token,
+            string newPassword)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+
+            try
+            {
+                var principal = tokenHandler.ValidateToken(
+                    token,
+                    new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidIssuer = _configuration["Jwt:Issuer"],
+
+                        ValidateAudience = true,
+                        ValidAudience = _configuration["Jwt:Audience"],
+
+                        ValidateLifetime = true,
+                        ClockSkew = TimeSpan.Zero,
+
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey =
+                            new SymmetricSecurityKey(
+                                Encoding.UTF8.GetBytes(
+                                    _configuration["Jwt:Key"]!))
+                    },
+                    out SecurityToken validatedToken);
+
+                var userId =
+                    principal.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+                var purpose =
+                    principal.FindFirst("purpose")?.Value;
+
+                if (purpose != "reset-password")
+                    return false;
+
+                var user = await _context.Users
+                    .FirstOrDefaultAsync(
+                        u => u.Id == Guid.Parse(userId!));
+
+                if (user == null)
+                    return false;
+
+                user.Password = _hasher.Hash(newPassword);
+
+                await _context.SaveChangesAsync();
+
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
 }

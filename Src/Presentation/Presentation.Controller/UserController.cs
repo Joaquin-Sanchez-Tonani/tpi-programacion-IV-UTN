@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Presentation.Controller
 
-//Agregar cambiar contraseña por mail
+    //Agregar cambiar contraseña por mail
 {
     [ApiController]
     // Usamos esta ruta para que los hijos hereden la ruta base o la definan ellos
@@ -76,78 +76,110 @@ namespace Presentation.Controller
             return Ok("Correo de verificacion enviado.");
         }
 
-        //[AllowAnonymous]
-        //[HttpGet]
-        //public virtual async Task<ActionResult<IEnumerable<T>>> Get()
-        //{
-        //    var users = await _service.GetAll();
-        //    // Filtramos para devolver solo el tipo específico (Client, Admin, etc.)
-        //    return Ok(users.OfType<T>());
-        //}
+        [AllowAnonymous]
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword(
+        [FromBody] ForgotPasswordRequest request)
+        {
+            var result = await _authService
+                .ForgotPassword(request.Email);
+
+            if (!result)
+                return BadRequest("No existe un usuario con ese email.");
+
+            return Ok("Se envio el correo de recuperacion.");
+        }
+
+        [AllowAnonymous]
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword(
+        [FromBody] ResetPasswordRequest request)
+        {
+            var result = await _authService
+                .ResetPassword(
+                    request.Token,
+                    request.NewPassword);
+
+            if (!result)
+                return BadRequest(
+                    "Token invalido o expirado.");
+
+            return Ok(
+                "Contraseña actualizada correctamente.");
+        }
+
+        [AllowAnonymous]
+        [HttpGet]
+        public virtual async Task<ActionResult<IEnumerable<T>>> Get()
+        {
+            var users = await _service.GetAll();
+            // Filtramos para devolver solo el tipo específico (Client, Admin, etc.)
+            return Ok(users.OfType<T>());
+        }
 
 
-        //[Authorize]
-        //[HttpPut("me")]
-        //public async Task<IActionResult> UpdateProfile(UpdateUserRequest request)
-        //{
-        //    var result = await _service.UpdateUser(request);
+        [Authorize]
+        [HttpPut("me")]
+        public async Task<IActionResult> UpdateProfile(UpdateUserRequest request)
+        {
+            var result = await _service.UpdateUser(request);
 
-        //    if (result == null)
-        //        return BadRequest();
+            if (result == null)
+                return BadRequest();
 
-        //    return Ok(result);
-        //}
-        //[Authorize]
-        //[HttpGet("claims")]
-        //public IActionResult Claims()
-        //{
-        //    return Ok(User.Claims.Select(c => new
-        //    {
-        //        c.Type,
-        //        c.Value
-        //    }));
-        //}
+            return Ok(result);
+        }
+        [Authorize]
+        [HttpGet("claims")]
+        public IActionResult Claims()
+        {
+            return Ok(User.Claims.Select(c => new
+            {
+                c.Type,
+                c.Value
+            }));
+        }
 
-        //[Authorize]
-        //[HttpGet("{id}")]
-        //public virtual async Task<ActionResult<T>> GetById(Guid id)
-        //{
-        //    var user = await _service.GetById(id);
-        //    if (user is not T typedUser) return NotFound();
+        [Authorize]
+        [HttpGet("{id}")]
+        public virtual async Task<ActionResult<T>> GetById(Guid id)
+        {
+            var user = await _service.GetById(id);
+            if (user is not T typedUser) return NotFound();
 
-        //    return Ok(typedUser);
-        //}
+            return Ok(typedUser);
+        }
 
-        //[AllowAnonymous]
-        //[HttpPost]
-        //public virtual async Task<ActionResult<T>> Post(T user)
-        //{
-        //    if (user == null) return BadRequest();
+        [AllowAnonymous]
+        [HttpPost]
+        public virtual async Task<ActionResult<T>> Post(T user)
+        {
+            if (user == null) return BadRequest();
 
-        //    // La validación básica se mantiene
-        //    if (string.IsNullOrEmpty(user.Name) || string.IsNullOrEmpty(user.Email))
-        //        return BadRequest("Name and Email are required.");
+            // La validación básica se mantiene
+            if (string.IsNullOrEmpty(user.Name) || string.IsNullOrEmpty(user.Email))
+                return BadRequest("Name and Email are required.");
 
-        //    var created = await _service.Create(user);
-        //    return CreatedAtAction(nameof(GetById), new { id = created.Id }, (T)created);
-        //}
-        //[Authorize]
-        //[HttpPatch("{id}")]
-        //public virtual async Task<IActionResult> Patch(Guid id, T user)
-        //{
-        //    var updated = await _service.Update(id, user);
-        //    if (!updated) return NotFound();
+            var created = await _service.Create(user);
+            return CreatedAtAction(nameof(GetById), new { id = created.Id }, (T)created);
+        }
+        [Authorize]
+        [HttpPatch("{id}")]
+        public virtual async Task<IActionResult> Patch(Guid id, T user)
+        {
+            var updated = await _service.Update(id, user);
+            if (!updated) return NotFound();
 
-        //    return NoContent();
-        //}
-        //[Authorize]
-        //[HttpDelete("{id}")]
-        //public virtual async Task<IActionResult> Delete(Guid id)
-        //{
-        //    var deleted = await _service.Delete(id);
-        //    if (!deleted) return NotFound();
+            return NoContent();
+        }
+        [Authorize]
+        [HttpDelete("{id}")]
+        public virtual async Task<IActionResult> Delete(Guid id)
+        {
+            var deleted = await _service.Delete(id);
+            if (!deleted) return NotFound();
 
-        //    return NoContent();
-        //}
+            return NoContent();
+        }
     }
 }
