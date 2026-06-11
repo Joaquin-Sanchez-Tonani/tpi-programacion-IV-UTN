@@ -91,7 +91,6 @@ namespace Infraestructure.Service
                 Email = newUser.Email
             };
         }
-        //NO USAR SOLO CONFLICT EXCEPTION PARA TODO USAR TMB LOS DEMAS
         public async Task<AuthResponse?> SingIn(SingInRequest request)
         {
             var cliente = await _context.Users
